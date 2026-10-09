@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Веломастерская «Спица»</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">Веломастерская «Спица»</a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="nav">Меню</button>
+    <nav id="nav" class="nav">
+      <a href="#home">Главная</a>
+      <a href="#about">О нас</a>
+      <a href="#services">Услуги</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Ваш велосипед снова едет как новый</h1>
+        <p>Ремонт, настройка и сборка велосипедов любой сложности. Диагностика бесплатно, работа за один день.</p>
+        <a class="btn" href="#contacts">Записаться на ремонт</a>
+      </div>
+      <img src="images/hero.svg" alt="Иллюстрация велосипеда" class="hero-img">
+    </section>
+
+    <section class="section" id="about">
+      <h2>О нас</h2>
+      <p>«Спица» работает с 2015 года и находится в центре города. В мастерской трудятся четыре механика с опытом более восьми лет. Мы чиним городские, горные и шоссейные велосипеды. Используем оригинальные запчасти и даём гарантию три месяца. Нам важно, чтобы вы уехали из мастерской с работающим и безопасным велосипедом.</p>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Услуги</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="images/service1.svg" alt="Колесо велосипеда">
+          <h3>Ремонт колёс</h3>
+          <p>Центровка, замена спиц и камер, обслуживание втулок.</p>
+        </article>
+        <article class="card">
+          <img src="images/service2.svg" alt="Цепь и шестерни">
+          <h3>Настройка трансмиссии</h3>
+          <p>Регулировка переключателей, замена цепи и кассеты.</p>
+        </article>
+        <article class="card">
+          <img src="images/service3.svg" alt="Тормозной диск">
+          <h3>Тормоза</h3>
+          <p>Замена колодок, прокачка гидравлики, регулировка.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <h2>Частые вопросы</h2>
+      <details><summary>Сколько длится ремонт?</summary><p>Простой ремонт занимает до двух часов, сложный — до одного дня.</p></details>
+      <details><summary>Нужна ли запись?</summary><p>Запись не обязательна, но по ней мы принимаем без очереди.</p></details>
+    </section>
+
+    <section class="section contacts" id="contacts">
+      <h2>Контакты</h2>
+      <p>Адрес: г. Пример, ул. Учебная, д. 1</p>
+      <p>Телефон: +7 (000) 000-00-00</p>
+      <p>Почта: info@example.com</p>
+      <p>Работаем ежедневно с 10:00 до 20:00</p>
+      <p class="note">Контактные данные вымышленные, сайт сделан в учебных целях.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Веломастерская «Спица». Учебный проект.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
